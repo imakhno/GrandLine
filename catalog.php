@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/phone.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <title>Grand Line Воронеж</title>
+</head>
+<body>
+    <div class="form__phone">
+        <form action="form.php" class="phone__callback" method="POST">
+            <div class="form__phone-close">
+                <i class="fa fa-times close" aria-hidden="true"></i>
+                <div class="form__phone-send">
+                    <p>Введите Имя:</p><br/>
+                    <input type="text" name="name" placeholder="Введите имя" required>
+                    <p>Введите телефон</p><br/>
+                    <input type="text" name="phone" placeholder="Введите телефон" required>
+                    <button type=submit name='sendMail'>заказать звонок</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <i class="Phone is-animating" id="btn"></i>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__phone">
+                    <a href="tel:84732320427" class="header__phone-number">8 (473) 232-04-27 <i class="fa fa-phone-square" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__body">
+                <a href="/" class="header__logo"><img src="img/logo.svg" alt=""></a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="catalog.php" class="header__link"><i class="fa fa-bars" aria-hidden="true"></i>каталог</a>
+                        </li>
+                        <li>
+                            <a href="about.php" class="header__link">о компании</a>
+                        </li>
+                        <li>
+                            <a href="price.php" class="header__link">цены</a>
+                        </li>
+                        <li>
+                            <a href="map.php" class="header__link">где купить</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <main>
+            <div class="wrapper__main wow bounceInDown">
+                <div class="container">
+                    <div class="main__catalog">
+                        <h1>Каталог</h1>
+
+
+                        <!-- Товары категории "КРОВЛЯ" -->                        
+                        <h2>Кровля</h2>
+                        <div class="main__catalog-block">
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Кровля/1.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Металлочерепица</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Кровля/2.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Фальцевая кровля</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Кровля/3.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Кровельный профнастил</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Кровля/4.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Мягкая кровля</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Товары категории "КРОВЛЯ" -->
+                    
+                    
+                        <!-- Товары категории "СОФИТЫ" -->                        
+                        <h2>Софиты</h2>
+                        <div class="main__catalog-block">
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Софиты/5.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Металлические софиты GL</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Софиты/6.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Софиты виниловые</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Софиты/7.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Металлический софит "Экобрус" с перфорацией</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Софиты/8.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Металлический софит "Квадро брус"</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Товары категории "СОФИТЫ" -->
+                    
+
+                        <!-- Товары категории "Элементы безопасности" -->                        
+                        <h2>Элементы безопасности</h2>
+                        <div class="main__catalog-block">
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Элементы безопасности/9.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Снегозадержатели</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Элементы безопасности/10.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Кровельные и стеновые лестницы</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Элементы безопасности/11.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Кровельные ограждения</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Элементы безопасности/12.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Переходные мостики</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Товары категории "Элементы безопасности" -->
+                        
+
+                        <!-- Товары категории "Водосточные системы" -->                        
+                        <h2>Водосточные системы</h2>
+                        <div class="main__catalog-block">
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Водосточные системы/13.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Водосточная система Grand Line 125x90</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Водосточные системы/14.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Водосточная система Grand Line 150x100</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Водосточные системы/15.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Водосток пластиковый Grand Line с английским желобом</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Водосточные системы/16.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Водосток Optima круглый 125x90</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Водосточные системы/17.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Водосточная система Гибрид, Гофрированный и Проект</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Товары категории "Водосточные системы" -->
+                        
+
+                        <!-- Товары категории "Фасад" -->                        
+                        <h2>Фасад</h2>
+                        <div class="main__catalog-block">
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Виниловый сайдинг/18.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Виниловый сайдинг и софиты</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Виниловый сайдинг/19.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Металлический сайдинг</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Виниловый сайдинг/20.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Фасадные панели</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Виниловый сайдинг/21.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Стеновой профнастил</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Товары категории "Фасад" -->
+                                                
+
+                        <!-- Товары категории "Заборы и ограждения" -->                        
+                        <h2>Заборы и ограждения</h2>
+                        <div class="main__catalog-block">
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Заборы и ограждения/22.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Заборы из профнастилаг</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Заборы и ограждения/23.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Штакетник металлический</span>
+                                </div>
+                            </div>
+                            <div class="catalog__block-item">
+                                <div class="block__item-img">
+                                    <img src="img/Заборы и ограждения/24.jpg" alt="">
+                                </div>
+                                <div class="block__item-info">
+                                    <span>Модульные ограждения</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Товары категории "Заборы и ограждения" -->
+
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </main>
+  <footer>
+        <div class="container">
+            <div class="footer__service">
+                <h5>Сервис</h5>
+                <div class="footer__service-block">
+                    <div class="service__block-item wow fadeInUpBig">
+                        <div class="footer__service-wrapper">
+                            <div class="service__wrapper-icon">
+                                <img src="img/calk.svg" alt="">
+                            </div>
+                            <span>Расчёт</span>
+                            <p>Это может быть не просто. Мы поможем сделать быстро и без ошибок.</p>
+                        </div>
+                    </div>
+                    <div class="service__block-item wow fadeInUpBig">
+                        <div class="footer__service-wrapper">
+                            <div class="service__wrapper-icon">
+                                <img src="img/card.svg" alt="">
+                            </div>
+                            <span>Оплата по карте</span>
+                            <p>Оплата наличными или по карте в нашем офисе.</p>
+                        </div>
+                    </div>
+                    <div class="service__block-item wow fadeInUpBig">
+                        <div class="footer__service-wrapper">
+                            <div class="service__wrapper-icon">
+                                <img src="img/delivery.svg" alt="">
+                            </div>
+                            <span>Доставка</span>
+                            <p>Бесплатная доставка нашим транспортом по Воронежу и ближайшим населённыи пунктам.</p>
+                        </div>
+                    </div>
+                    <div class="service__block-item wow fadeInUpBig">
+                        <div class="footer__service-wrapper">
+                            <div class="service__wrapper-icon">
+                                <img src="img/garant.svg" alt="">
+                            </div>
+                            <span>Официальный дилер</span>
+                            <p>Наша компания является официальным дилером всей продукции Grand Line.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom-phone">
+            <div class="container">
+                <div class="bootom__phone">
+                    <a href="tel:84732320427" class="bottom__phone-item">8 (473) 232-04-27 </a>
+                    <a href="mailto:sigov@tkrov.ru" class="bottom__email-item">sigov@tkrov.ru</a>
+                    <span>Воронеж, проспект Патриотов 55б, оф. 1</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom-security">
+            <div class="container">
+                <div class="bottom__security">
+                    <p>Политика защиты и обработки персональных данных</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
